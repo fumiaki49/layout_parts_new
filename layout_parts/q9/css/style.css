@@ -10,11 +10,6 @@
   position: relative;
 }
 
-.message-box__text {
-  font-size: 16px;
-  line-height: 16px;
-}
-
 .message-box::before, .message-box::after{
   content: "";
   width: 0;
