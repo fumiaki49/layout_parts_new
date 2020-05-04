@@ -6,21 +6,19 @@
   table-layout: fixed;
 }
 
-.q3__contents th, .q3__contents td {
+.q3__contents th, .q3__contents td { 
   padding: 10px;
   border: 1px solid #dedede;
 }
 
 .q3__contents th {
   background-color: #2244aa;
-  color: white;
+  color: #fff;
   font-size: 18px;
   line-height: 26px;
 }
 
 .q3__contents td {
-  font-size: 16px;
-  line-height: 22px;
   text-align: center;
 }
 
