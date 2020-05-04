@@ -77,7 +77,6 @@
 
 .is__8::after {
   position: absolute;
-  top: 0;
   right: 0;
   content: "";
   width: 20px;
