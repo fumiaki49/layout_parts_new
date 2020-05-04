@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-/* 回答はここに書いてね */
 .clearfix:after {
   clear: both;
   display: block;
@@ -31,9 +30,3 @@
   border: 10px solid #022336;
   background-color: #eaf4ff;
 }
-
-.q1__box__text p {
-  font-size: 16px;
-  line-height: 16px;
-}
-/* 回答はここに書いてね */
