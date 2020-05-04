@@ -9,38 +9,29 @@
   display: block;
 }
 
-.floatbox {
+.floatBox {
   width: 225px;
-  font-size: 16px;
   box-sizing: border-box;
-}
-.is-left {
   float: left;
-  
 }
-.is-right {
-  float: right;
+.floatBox:last-child {
   margin-left: 50px;
 }
 
 /* table横並び */
-.tablebox {
-  display: table;
-}
-
-.tablebox-c {
+.is-tableBox {
   display: table-cell;
   padding-left: 50px;
   width: 225px;
   vertical-align: middle;
 }
 
-.tablebox-c:first-child {
+.is-tableBox:first-child {
   padding-left: 0;
 }
 
 /* inlineblock横並び */
-.inlineblock-box {
+.is-inlineBlock {
   display: inline-block;
   width: 225px;
   box-sizing: border-box;
@@ -49,7 +40,7 @@
   font-size: 16px;
 }
 
-.inlineblock-box:first-child {
+.is-inlineBlock:first-child {
   margin-left: 0;
 }
 
@@ -65,7 +56,7 @@
   align-items: flex-end;
 }
 
-.boxf {
+.flexItem {
   width: 225px;
   box-sizing: border-box;
 }
@@ -74,6 +65,7 @@
 .is-fixed{
   display: inline-block;
   width: 300px;
+  vertical-align: top;
 }
 
 .is-changeable {
@@ -82,6 +74,5 @@
   margin-left: -305px;
   padding-left: 350px;
   box-sizing: border-box;
-  vertical-align: top;
 }
 /* 回答はここに書いてね */
