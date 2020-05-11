@@ -6,13 +6,13 @@
   text-align: center;
 }
 
-.q6-inner-text {
+.q6-text {
   width: 90px;
   padding: 10px 0;
   background-color: #e6f2ff;
 }
 
-.q6-inner .q6-inner-text {
+.q6-inner .q6-text {
   display: inline-block;
 }
 
