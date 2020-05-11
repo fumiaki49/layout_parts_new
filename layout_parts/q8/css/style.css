@@ -18,7 +18,7 @@
   transform: scale(1.5);
 }
 
-.trans__text {
+.trans-text {
   background: linear-gradient(rgba(0,0,0,0),rgba(0, 0, 0, .8));
   position: absolute;
   bottom: -100%;
@@ -28,7 +28,7 @@
   transition: all 0.5s;
 }
 
-.trans__text p {
+.trans-text p {
   color: white;
   position: absolute;
   bottom: 0;
@@ -39,7 +39,7 @@
   box-sizing: border-box;
 }
 
-.trans:hover .trans__text {
+.trans:hover .trans-text {
   bottom: 0;
 }
 
