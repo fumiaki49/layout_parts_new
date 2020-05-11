@@ -8,21 +8,21 @@
   padding: 20px;
 }
 
-.q2__img {
+.q2-img {
   margin-bottom: 10px;
 }
 
-.q2__img.left {
+.q2-img.left {
   margin-right: 20px;
   float: left;
 }
 
-.q2__img.right {
+.q2-img.right {
   margin-left: 20px;
   float: right;
 }
 
-.q2__text {
+.q2-text {
   font-size: 18px;
   line-height: 22px;
   word-break: break-all;  /* word-break･･･文の改行の仕方について指定する */
