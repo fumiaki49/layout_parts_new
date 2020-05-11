@@ -2,58 +2,65 @@
 
 /* 回答はここに書いてね */
 /* q6-1 */
- .q6__inner {
+.q6-inner {
   text-align: center;
- }
- .q6__inner__text {
-   width: 90px;
-   padding: 10px 0;
-   background-color: #e6f2ff;
- }
- .q6__inner .q6__inner__text {
-   display: inline-block;
- }
- .its__rightItem {
-   margin: 0 auto;
-   text-align: center;
- }
+}
+
+.q6-inner-text {
+  width: 90px;
+  padding: 10px 0;
+  background-color: #e6f2ff;
+}
+
+.q6-inner .q6-inner-text {
+  display: inline-block;
+}
+
+.its-rightItem {
+  margin: 0 auto;
+  text-align: center;
+}
 
  /* q6-2 */
- .is-table {
+.is-table {
   display: table;
 }
- .whitebox {
-   display: inline-block;
-   padding: 10px;
-   background-color: #fff;
- }
- .tableBox-inner {
-   display: table-cell;
-   vertical-align: middle;
-   text-align: center;
- }
 
- .is-flex {
-   display: flex;
-   justify-content: center;
-   align-items: center;
- }
+.whitebox {
+  display: inline-block;
+  padding: 10px;
+  background-color: #fff;
+}
 
- .set-relative {
-   position: relative;
- }
- .is-fixed {
-   position: absolute;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   margin: auto;
- }
- .is-changeable {
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translateY(-50%) translateX(-50%);
- }
+.tableBox-inner {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.is-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.set-relative {
+  position: relative;
+}
+
+.is-fixed {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.is-changeable {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
 /* 回答はここに書いてね */
