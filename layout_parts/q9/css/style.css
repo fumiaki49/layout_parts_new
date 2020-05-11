@@ -15,18 +15,16 @@
   width: 0;
   height: 0;
   border: 20px solid transparent;
+  position: absolute;
+  left: 30px;
 }
 
 .message-box::before {
-  position: absolute;
   bottom: -45px;
-  left: 10%;
   border-top-color: #222;
 }
 .message-box::after {
-  position: absolute;
   bottom: -38px;
-  left: 10%;
   border-top-color: #fff;
 }
 /* 回答はここに書いてね */
