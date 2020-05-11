@@ -62,17 +62,20 @@
 }
 
 /* inlineblockとmarginで横並び */
-.is-fixed {
+.content-box {
+  font-size: 16px;
   display: inline-block;
-  width: 300px;
+  box-sizing: border-box;
   vertical-align: top;
 }
 
+.is-fixed {
+  width: 300px;
+}
+
 .is-changeable {
-  display: inline-block;
   width: 100%;
-  margin-left: -305px;
+  margin-left: -300px;
   padding-left: 350px;
-  box-sizing: border-box;
 }
 /* 回答はここに書いてね */
