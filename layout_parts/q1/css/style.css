@@ -13,7 +13,7 @@
   background-color: #eff3f4;
 }
 
-.q1__box {
+.q1-box {
   width: 230px;
   padding: 20px;
   background-color: #3274ae;
@@ -21,11 +21,11 @@
   float: left;
 }
 
-.q1__box:first-child {
+.q1-box:first-child {
   margin-left: 0;
 }
 
-.q1__box__text {
+.text {
   padding: 20px;
   border: 10px solid #022336;
   background-color: #eaf4ff;
