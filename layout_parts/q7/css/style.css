@@ -62,7 +62,7 @@
 }
 
 /* inlineblockとmarginで横並び */
-.is-fixed{
+.is-fixed {
   display: inline-block;
   width: 300px;
   vertical-align: top;
