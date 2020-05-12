@@ -9,29 +9,29 @@
   display: block;
 }
 
-.floatBox {
+.float-box {
   width: 225px;
   box-sizing: border-box;
   float: left;
 }
-.floatBox:last-child {
+.float-box:last-child {
   margin-left: 50px;
 }
 
 /* table横並び */
-.is-tableBox {
+.is-table-box {
   display: table-cell;
   padding-left: 50px;
   width: 225px;
   vertical-align: middle;
 }
 
-.is-tableBox:first-child {
+.is-table-box:first-child {
   padding-left: 0;
 }
 
 /* inlineblock横並び */
-.is-inlineBlock {
+.is-inline-block {
   display: inline-block;
   width: 225px;
   box-sizing: border-box;
@@ -40,7 +40,7 @@
   font-size: 16px;
 }
 
-.is-inlineBlock:first-child {
+.is-inline-block:first-child {
   margin-left: 0;
 }
 
@@ -56,7 +56,7 @@
   align-items: flex-end;
 }
 
-.flexItem {
+.flex-item {
   width: 225px;
   box-sizing: border-box;
 }
